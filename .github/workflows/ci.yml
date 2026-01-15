@@ -10,18 +10,21 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run build
         run: npm run build
@@ -29,8 +32,29 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Upload build artifacts
+      - name: Run tests with coverage
+        run: npm run test:coverage
+
+      - name: Upload test results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: build-artifacts
-          path: dist/
+          name: test-results-${{ matrix.os }}
+          path: |
+            coverage/
+            test-results/
+
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v4
+        with:
+          files: ./coverage/lcov.info
+          flags: ${{ matrix.os }}
+          name: coverage-${{ matrix.os }}
+          fail_ci_if_error: false
+
+      - name: Upload build artifacts
+        if: matrix.os == 'ubuntu-latest'
+        uses: actions/upload-artifact@v4
+        with:
+            name: web-app
+            path: dist/
