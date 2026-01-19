@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/dh241823/ustp-cicd-final/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/ci.yml?query=event%3Apush)
 [![Deploy to GitHub Pages](https://github.com/dh241823/ustp-cicd-final/actions/workflows/deploy.yml/badge.svg)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/deploy.yml)
-[![Release](https://github.com/dh241823/ustp-cicd-final/actions/workflows/release.yml/badge.svg)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/release.yml)
+[![Release](https://img.shields.io/github/v/release/dh241823/ustp-cicd-final)](https://github.com/dh241823/ustp-cicd-final/releases)
 [![Spellcheck](https://github.com/dh241823/ustp-cicd-final/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/spellcheck.yml)
 [![codecov](https://codecov.io/gh/dh241823/ustp-cicd-final/branch/main/graph/badge.svg)](https://codecov.io/gh/dh241823/ustp-cicd-final)
 
