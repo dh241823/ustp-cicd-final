@@ -1,16 +1,16 @@
 # USTP CI/CD Final - Tetris Game
 
-[![CI](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/ci.yml?query=event%3Apush)
-[![Deploy to GitHub Pages](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/deploy.yml/badge.svg)](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/deploy.yml)
-[![Release](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/release.yml/badge.svg)](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/release.yml)
-[![Spellcheck](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/YOUR_USERNAME/ustp-cicd-final/actions/workflows/spellcheck.yml)
-[![codecov](https://codecov.io/gh/YOUR_USERNAME/ustp-cicd-final/branch/main/graph/badge.svg)](https://codecov.io/gh/YOUR_USERNAME/ustp-cicd-final)
+[![CI](https://github.com/dh241823/ustp-cicd-final/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/ci.yml?query=event%3Apush)
+[![Deploy to GitHub Pages](https://github.com/dh241823/ustp-cicd-final/actions/workflows/deploy.yml/badge.svg)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/deploy.yml)
+[![Release](https://github.com/dh241823/ustp-cicd-final/actions/workflows/release.yml/badge.svg)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/release.yml)
+[![Spellcheck](https://github.com/dh241823/ustp-cicd-final/actions/workflows/spellcheck.yml/badge.svg)](https://github.com/dh241823/ustp-cicd-final/actions/workflows/spellcheck.yml)
+[![codecov](https://codecov.io/gh/dh241823/ustp-cicd-final/branch/main/graph/badge.svg)](https://codecov.io/gh/dh241823/ustp-cicd-final)
 
 A Tetris game web application built with React and TypeScript, featuring a complete CI/CD pipeline with GitHub Actions.
 
 ## 🌐 Live Demo
 
-Visit the application at: [https://YOUR_USERNAME.github.io/ustp-cicd-final/](https://YOUR_USERNAME.github.io/ustp-cicd-final/)
+Visit the application at: [https://dh241823.github.io/ustp-cicd-final/](https://dh241823.github.io/ustp-cicd-final/)
 
 ## 🚀 Developer Instructions
 
@@ -23,7 +23,7 @@ Visit the application at: [https://YOUR_USERNAME.github.io/ustp-cicd-final/](htt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ustp-cicd-final.git
+   git clone https://github.com/dh241823/ustp-cicd-final.git
    cd ustp-cicd-final
    ```
 
