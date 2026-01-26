@@ -6,6 +6,4 @@ matrix:
       wordlists:
         - .github/wordlist.txt
     pipeline:
-      - pyspelling.filters.markdown:
-          markdown_extensions:
-            - md
+      - pyspelling.filters.markdown
