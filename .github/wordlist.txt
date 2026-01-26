@@ -1,0 +1,8 @@
+vscode
+GitHub
+CI/CD
+Tetris
+Vite
+Vitest
+Codecov
+npm

@@ -1,0 +1,16 @@
+name: Spellcheck
+
+on:
+  pull_request:
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run spellcheck
+        uses: rojopolis/spellcheck-github-actions@0.36.0
+        with:
+          config_path: .github/spellcheck.yml
